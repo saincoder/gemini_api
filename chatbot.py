@@ -16,8 +16,8 @@ def getResponse(user_input):
 # Streamlit interface
 st.set_page_config(page_title="Chatbot", layout="centered")
 
-st.title("Simple Chatbot")
-st.write("Powered by Generative AI")
+st.title("AI Chat Master 🤖")
+st.write("Powered by Generative AI | Developed by Shahid Hussain")
 
 # Custom CSS for chat layout
 st.markdown("""
@@ -51,7 +51,7 @@ if "history" not in st.session_state:
     st.session_state["history"] = []
 
 with st.form(key="chat_form", clear_on_submit=True):
-    user_input = st.text_input("Enter your prompt:", "", max_chars=2000, label_visibility="visible")
+    user_input = st.text_input("Enter your prompt:", max_chars=2000, label_visibility="visible",)
     submit_button = st.form_submit_button("Send")
 
     if submit_button:
