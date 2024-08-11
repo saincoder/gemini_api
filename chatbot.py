@@ -75,6 +75,7 @@ if st.session_state.history:
             margin: 5px 0;
             max-width: 95%;
             text-align: left;
+            color: #ffffff;
             float: right;
             display: inline-block;
             ">
@@ -95,6 +96,7 @@ if st.session_state.history:
             margin: 5px 0;
             max-width: 95%;
             text-align: left;
+            color: #ffffff;
             display: inline-block;
             ">
             <strong>🤖 Bot:</strong>
