@@ -16,7 +16,7 @@ def getResponse(user_input):
 # Streamlit interface
 st.set_page_config(page_title="Chatbot", layout="centered")
 
-st.title("AI Chat Master 🤖")
+st.title("Muneeba own AI Chat Master 🤖")
 st.write("Powered by Generative AI | Developed by Shahid Hussain")
 
 # Custom CSS for chat layout
